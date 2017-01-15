@@ -1,19 +1,14 @@
 ﻿{
-  "supports": {
-    "net46.app": {},
-    "uwp.10.0.app": {},
-    "dnxcore50.app": {}
-  },
+  "supports": {},
   "dependencies": {
-    "Microsoft.NETCore": "5.0.0",
-    "Microsoft.NETCore.Portable.Compatibility": "1.0.0",
-    "System.Net.Http": "4.0.0",
-    "System.Net.Requests": "4.0.10",
-    "System.Text.Encoding.CodePages": "4.0.0"
+    "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
+    "Microsoft.VisualBasic": "10.1.0",
+    "NETStandard.Library": "1.6.1",
+    "System.Net.Http": "4.3.0",
+    "System.Net.Requests": "4.3.0",
+    "System.Text.Encoding.CodePages": "4.3.0"
   },
   "frameworks": {
-    "dotnet": {
-      "imports": "portable-net452+win81"
-    }
+    "netstandard1.4": {}
   }
 }
